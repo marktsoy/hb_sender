@@ -52,6 +52,7 @@ func ListenToSubscribers(c *Config, cb func(models.Subscription)) {
 			}
 			fmt.Printf("%v \n %v", out.ChatID, out.IsSubscribed)
 			cb(out)
+			fmt.Printf("Chat subscribed \t %v", out.ChatID)
 			fmt.Printf("Received a message: %s\n", s.Body)
 		}
 	}

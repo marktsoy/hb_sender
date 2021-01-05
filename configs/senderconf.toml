@@ -1,5 +1,7 @@
 rabbit_addr="amqp://localhost:5672"
 rabbit_message_queue="messages"
+rabbit_message_exchange="messages_topic"
 rabbit_message_timeout=1
 rabbit_subscriber_queue="subscribed"
 tg_bot_public_key="1392295365:AAHHzzpaO8fCVyBq_oI8v6Yqi5OqjfAGONo"
+# rabbit_subscriber_exchange="subscribed_exchange"

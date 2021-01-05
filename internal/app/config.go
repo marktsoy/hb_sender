@@ -7,6 +7,7 @@ type Config struct {
 	RabbitMessageTimeout  int32  `toml:"rabbit_message_timeout"`
 	RabbitMessageQueue    string `toml:"rabbit_message_queue"`
 	RabbitSubscriberQueue string `toml:"rabbit_subscriber_queue"`
+	// RabbitSubscriberExchange string `toml:"rabbit_subscriber_exchange"`
 }
 
 // NewConfig ...
